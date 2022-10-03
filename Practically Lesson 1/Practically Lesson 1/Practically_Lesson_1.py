@@ -4,25 +4,7 @@ from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
 import math
-verticies = (
-    (-3, 2, 0),
-    (-1, 2, 0),
-    (1, 2, 0),
-    (3, 2, 0),
-    (-3, -2, 0),
-    (-1, -2, 0),
-    (1, -2, 0),
-    (3, -2, 0)
-    )
 
-edges = (
-    (0, 3),
-    (0, 4),
-    (4, 7),
-    (7, 3),
-    (1, 5),
-    (2, 6)
-    )
 
 def Star(radius, y_center, x_center):
     step = math.pi * 4.0 / 5.0

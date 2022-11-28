@@ -89,3 +89,9 @@ def main():
 main()
 
 
+#property_mat = [(0.0215, 0.1745, 0.0215), (0.7568, 0.61424, 0.07568), (0.633, 0.727811, 0.633), 0.6]
+#property_mat = [(0, 0, 0), (0.5, 0, 0), (0.7, 0.6, 0.6), 0.25]
+#glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT, property_mat[0]) #рассеяный цвет
+#glMaterialfv(GL_FRONT_AND_BACK, GL_SPECULAR, property_mat[2]) # зеркальный цвет
+#glMaterialfv(GL_FRONT_AND_BACK, GL_DIFFUSE, property_mat[1]) # диффузный цвет 
+#glMaterialfv(GL_FRONT_AND_BACK, GL_SHININESS, property_mat[3]) # мощность бликов
